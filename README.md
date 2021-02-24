@@ -21,4 +21,6 @@ Ans - Yes you can easily <br />
 Ans - Yes You can just you need latest node.js version <br />
 =3) Something error come?<br />
 Ans - Just Contact me on discord my name is dhvit you can find me in https://discord.gg/rynexop . <br />
+=4) zhot do i add premium in any command? <br />
+Ans -  <br />
 
