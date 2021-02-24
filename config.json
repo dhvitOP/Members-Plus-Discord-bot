@@ -1,8 +1,8 @@
 
 {
-  "token": "ODA0OTkzNTU2NzQ5MzUzMDEz.YBUaqw.sozpcSRK4IXipWch1nWLAcGr7jU", 
-  "EmbedFooter": "EXPERIENCE+ v3.0 | 2021(C) ",
-  "OwnerID": ["698139730730024981", "694960268698189874", "802033654548922408", "757816661590933624", "784705145090080808"],
-  "prefix": "+", 
-   "supportServer" :"https://discord.gg/ZzJqST7YbC"
+  "token": "Your Discord bot Token here", 
+  "EmbedFooter": "Any thing like the bot name and version",
+  "OwnerID": ["Here Your developer id",],
+  "prefix": "Any prefix here", 
+   "supportServer" :"Your support server link here"
  }
