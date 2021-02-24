@@ -3,12 +3,12 @@
 => The bot js originally made by DynamoYT. 
 => If you will use the bot in public or any use please just give us credits.
 # Features
-=> Added Premium in Bot. 
-=> Easily customizable.
+=> Added Premium in Bot., 
+=> Easily customizable.,
 => You can add Premium in any commands.
 => Added Lottery System.
 # How to Install
-=1) do git clone. 
+=1) do git clone https://github.com/dhvitOP/Members-Plus-Discord-bot.git or paste https://github.com/dhvitOP/Members-Plus-Discord-bot.git in the website you want to host.
 =2) Fill the config.json.
 =3) change Your bot invite link in commands/help.js and commands/invite.js.
 =4) do ``npm install`` in console or terminal.
