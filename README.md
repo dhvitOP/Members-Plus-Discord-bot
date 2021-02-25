@@ -1,6 +1,6 @@
 # Experience+ Bot
 # Credit
-=> The bot js originally made by DynamoYT. <br />
+=> The bot is originally made by DynamoYT. <br />
 => If you will use the bot in public or any use please just give us credits. <br />
 # Features
 => Added Premium in Bot. <br />
@@ -22,7 +22,8 @@ Ans - Yes You can just you need latest node.js version <br />
 =3) Something error come?<br />
 Ans - Just Contact me on discord my name is dhvit you can find me in https://discord.gg/rynexop . <br />
 =4) how do i add premium in any command? <br />
-Ans - Just Copy Paste - let notpremium = new Discord.MessageEmbed() <br />
+Ans - Just Copy Paste - <br /> 
+let notpremium = new Discord.MessageEmbed() <br />
 .setTitle(`You're Not a premium user`) <br />
  let checking = db.get(`premium`) <br />
 
