@@ -22,7 +22,7 @@ Ans - Yes You can just you need latest node.js version <br />
 =3) Something error come?<br />
 Ans - Just Contact me on discord my name is dhvit you can find me in https://discord.gg/rynexop . <br />
 =4) how do i add premium in any command? <br />
-Ans - Just Copy Paste ```let notpremium = new Discord.MessageEmbed()
+Ans - Just Copy Paste `let notpremium = new Discord.MessageEmbed()
 .setTitle(`You're Not a premium user`)
  let checking = db.get(`premium`)
 
@@ -32,7 +32,7 @@ if(checking && checking.find(find => find.userid != message.author.id)) {
 
   return;
 
-}``` This in any command if you wanna add premium. <br />
+}` This in any command if you wanna add premium. <br />
  <br />
   <br />
   =5) For how many days the premium is?  <br />
