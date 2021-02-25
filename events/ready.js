@@ -5,7 +5,7 @@ module.exports = {
    
     console.log(`I am ready`)
  
-    client.user.setActivity(`+help | +invite | with v2.5`, { type: "PLAYING" }) 
+    client.user.setActivity(`Bot made by Dhvit and akshat original is Experience+`, { type: "PLAYING" }) 
 
   } 
 }
