@@ -24,8 +24,8 @@ Ans - Just Contact me on discord my name is dhvit you can find me in https://dis
 =4) how do i add premium in any command? <br />
 Ans - Just Copy Paste - <br /> 
 let notpremium = new Discord.MessageEmbed() <br />
-.setTitle(`You're Not a premium user`) <br />
- let checking = db.get(`premium`) <br />
+.setTitle(``You're Not a premium user``) <br />
+ let checking = db.get(``premium``) <br />
 
 if(checking && checking.find(find => find.userid != message.author.id)) { <br /> 
   console.log(message.author.username) <br />
