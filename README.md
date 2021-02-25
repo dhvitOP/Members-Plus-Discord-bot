@@ -22,7 +22,7 @@ Ans - Yes You can just you need latest node.js version <br />
 =3) Something error come?<br />
 Ans - Just Contact me on discord my name is dhvit you can find me in https://discord.gg/rynexop . <br />
 =4) how do i add premium in any command? <br />
-Ans - Just Copy Paste | `let notpremium = new Discord.MessageEmbed() <br />
+Ans - Just Copy Paste - let notpremium = new Discord.MessageEmbed() <br />
 .setTitle(`You're Not a premium user`) <br />
  let checking = db.get(`premium`) <br />
 
@@ -32,10 +32,19 @@ if(checking && checking.find(find => find.userid != message.author.id)) { <br />
 
   return; <br />
 
-}` | <br /> This in any command if you wanna add premium. <br />
+} <br /> This in any command if you wanna add premium. <br />
  <br />
   <br />
   =5) For how many days the premium is?  <br />
   Ans - The Premium is of 15 days.  <br />
+  <br />
+  =6) How Lottery Works? <br />
+  Ans - The lottery Is always start it never stops and the winner gets 200 coins and if you wanna check how many participants joined do `{prefix}lotterystats` (it is only for owners). <br />
+  =7) How to end lottery ? <br />
+  Ans - Just do `{prefix}end` to end the lottery (this is also only for owners). <br />
+  =8) How to participate in lottery? <br />
+  Ans - Do `{prefix}lottery` to prticiapate in lottery anyone can participate. <br />
+  =9) How to create or redeem premium? <br />
+  Ans - You Have to create code by doing `{prefix}create code <any code your choice>` for creating a code (only for owners) and for redeeming do `{prefix}redeem <here your code which you have entered before in create code>` for redeeming premium (anyone can). <br />
 
 
