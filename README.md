@@ -51,4 +51,6 @@ if(checking && checking.find(find => find.userid != message.author.id)) { <br />
   Ans - Just do `npm install ms` and done restart the bot. <br />
   =11) when starting the bot in console it is showing cannot find module "better-sqlite3" <br />
 Ans - Do `npm install quick.db` if still error come do `npm i better_sqlite3` if still come do `npm install sqlite3` And youre done restart the bot. <br />
+=12) when i add coins to my account the coins doesnt show <br />
+Ans - This means bot is not able to save database in code turn your website project to public. <br />
 
