@@ -20,7 +20,7 @@ Ans - Yes you can easily <br />
 =2) Can i host on repl.it or any website <br />
 Ans - Yes You can just you need latest node.js version <br />
 =3) Something error come?<br />
-Ans - Just Contact me on discord my name is dhvit you can find me in https://discord.gg/rynexop . <br />
+Ans - Just Contact me on discord my name is dhvit you can find me on Discord 『𝐔𝐓𝐕』 ⏤͟͟͞★₲ɄƉɃØ¥ 𝓓𝓮𝓥  『</>』#3759 on this id . <br />
 =4) how do i add premium in any command? <br />
 Ans - Just Copy Paste - <br /> 
 let notpremium = new Discord.MessageEmbed() <br />
