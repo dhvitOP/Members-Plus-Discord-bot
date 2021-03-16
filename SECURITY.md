@@ -8,7 +8,8 @@ This versions are currently can run easily
 | ------- | ------------------ |
 | 1.0.2   | :white_check_mark: |
 
-##Node Supported Versions
+## Node Supported Versions
+
 | Version | Supported          |
 | ------- | ------------------ |
 | ^12.0.0 | :white_check_mark: |
