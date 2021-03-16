@@ -14,6 +14,8 @@
 =4) do ``npm install`` in console or terminal. <br />
 =5) do ``npm start`` in console or just run if you are hosting on website. <br />
 =6) if the response from terminal/console say `i am ready` after `running on port 6000` then congrats youre done bot is ready to run enjoy. <br />
+# Legal Things
+-) You cannot make your bot public if you use our code and if you used we will report your bot and get your bot banned from discord You can see other details in here in license - [HERE](https://github.com/dhvitOP/Members-Plus-Discord-bot/blob/master/LICENSE)
 # FAQS
 =1) Can i host on glitch <br />
 Ans - Yes you can easily <br />
