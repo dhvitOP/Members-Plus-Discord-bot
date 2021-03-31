@@ -1,9 +1,9 @@
 const Discord = require('discord.js')
-
+const config = require("../config.json")
 module.exports = {
   execute: async(client, guild, message) => {
   
-    let channel = client.channels.cache.get("804964881455120404")
+    let channel = client.channels.cache.get(config.logChannel)
   
     const embed = new Discord.MessageEmbed()
     .setTitle(`New Server!`)
