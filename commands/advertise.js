@@ -8,7 +8,11 @@ module.exports = {
 
     let amount = Number(args[0])
 
-    const description = args.slice(1).join(" ")
+    var description = args.slice(1).join(" ")
+    if(!description)
+    {
+      var description = "No Desciption has been set";
+      }
     let needatleastcoins = new Discord.MessageEmbed()
     .setTitle(`Error!`)
     .setDescription(`<@${message.author.id}> You need at least **6** coins to buy users in your server.`)
