@@ -10,7 +10,7 @@ module.exports = {
     .setAuthor(client.user.username, client.user.displayAvatarURL())
     .setTitle(`${client.user.username}`)
     .setThumbnail(client.user.displayAvatarURL())
-    .setDescription(`If you need more help, feel free to ask our support team in the server https://discord.gg/ZzJqST7YbC`)
+    .setDescription(`If you need more help, feel free to ask our support team in the server ${config.supportServer}`)
     .addField(`Here's what we - 
 THIS IS A J4J BOT WHICH ALSO HELP YOU TO GROW YOUR SERVER FASTLY BUT YOU CAN'T DO IT FOR FREE YOU HAVE TO PLAY WITH BOT AND COLLECT SOME COINS BY PLAYING ECONOMY THEN YOU CAN USE THE COINS TO GET MEMBERS AND GROW YOUR SERVER FASTLY`, false)
     .addField(`How to use the coins and get j4j servers  -How to joins j4j servers: If you type +f or +find you will get some servers where j4j is allowed and you can join the server if you want to join`, false)
