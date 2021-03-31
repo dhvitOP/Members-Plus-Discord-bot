@@ -51,7 +51,7 @@ module.exports = {
       } 
     } 
  
-    embed.addField(`**__Join Support server__** \nhttps://discord.gg/ENKEJjYp4j`, false)
+    embed.addField(`**__Join Support server__** `, `${config.supportServer}` false)
     .setFooter(config.EmbedFooter)
     message.channel.send(embed)  
   } 
