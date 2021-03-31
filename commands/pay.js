@@ -100,7 +100,7 @@ module.exports = {
 
     db.add(`coins_${user.id}`, Number(amount))
     
-    let logchannel = client.channels.cache.get(`804964973028704286`)
+    let logchannel = client.channels.cache.get(config.logChannel)
     let embed = new Discord.MessageEmbed()
     .setAuthor(client.user.username, client.user.displayAvatarURL({ format: "png", dynamic: true }))
     .setTitle('Coins Paid [User to User]')
