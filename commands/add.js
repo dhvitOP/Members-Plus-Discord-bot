@@ -17,7 +17,7 @@ module.exports = {
     if (!pay || isNaN(pay)) return message.channel.send(`**Command incorrect!** ||Noob Owner||\n**Try:** \`${config.prefix}bal <MentionAUser> <Coins>\``)
 
     let user = message.mentions.users.first()
-    let logchannel = client.channels.cache.get("804964973028704286")
+    let logchannel = client.channels.cache.get(config.logChannel)
     let embed = new Discord.MessageEmbed()
     .setTitle('Owner Command')
     .setDescription(`**Owner Name: <@${message.author.id}>!**\n\nAdded **${pay}** coins to <@${user.id}>`)
