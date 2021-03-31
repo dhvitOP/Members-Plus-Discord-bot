@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const config = require('../config.json');
 module.exports = {
   name: "order",
-  aliases: ["info"],
+  aliases: ["info", "orders"],
   description: "shows the current order of the guild.",
   execute: async(client, message, args, data, db) => {
    
@@ -27,7 +27,7 @@ module.exports = {
     .setAuthor(client.user.username, client.user.displayAvatarURL())
     .setTitle(`${message.guild.name} order info:`)
     .setThumbnail(message.channel.guild.iconURL())
-    .addField(`Want Faster Orders Completion?`, `Try to vote [Experience+](https://top.gg/bot/804993556749353013/vote) on top.gg, You will get faster orders completion!`)
+    .addField(`Want Faster Orders Completion?`, ` You will get faster orders completion!`)
     .setDescription(`Total orders: ${data.orders}\nProgress: ${bar.join("")} ${data.uses}/${data.orders}`)
     .setFooter(config.EmbedFooter)
 
