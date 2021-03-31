@@ -1,9 +1,9 @@
 const Discord = require('discord.js')
-
+const config = require("../config.json")
 module.exports = {
   execute: async(client, guild) => {
     
-    let channel = client.channels.cache.get("804964905408004106")
+    let channel = client.channels.cache.get(config.logChannel)
   
     const embed = new Discord.MessageEmbed()
     .setTitle(`Left Server!`)
