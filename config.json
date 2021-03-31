@@ -4,5 +4,6 @@
   "EmbedFooter": "Any thing like the bot name and version",
   "OwnerID": ["Here Your developer id"],
   "prefix": "Any prefix here", 
-   "supportServer" :"Your support server link here"
+   "supportServer" :"Your support server link here",
+  "logChannel": "YOUR LOG CHANNEL ID HERE"
  }
