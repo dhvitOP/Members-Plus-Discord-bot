@@ -10,7 +10,7 @@ module.exports = {
     .setAuthor(client.user.username, client.user.displayAvatarURL())
     .setTitle(`${client.user.username} v2.0`)
     .setThumbnail(client.user.displayAvatarURL())
-    .setDescription(`If you need more help, feel free to ask our support team in the server https://discord.gg/ZzJqST7YbC`)
+    .setDescription(`If you need more help, feel free to ask our support team in the server ${config.supportServer}`)
     .addFields(
       { name: `+help`, value: `Shows the help command. [invite Me]()`, inline: true},
       { name: `+invite`, value: `Invite the bot to your server. [invite Me]()`, inline: true},
@@ -25,7 +25,7 @@ module.exports = {
       { name: `+botinfo`, value: `It gives you the bot information. [invite Me]()`, inline: true},
       { name: `+stats`, value: `It gives you the detailed stats of bot. [invite Me]()`, inline: true})
   
-    .setFooter(``)
+   
     message.channel.send(embed).catch(e => message.channel.send(`I don't have permission to send embed message here!`)) 
   }
 }
