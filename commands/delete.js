@@ -18,7 +18,7 @@ module.exports = {
     db.delete(`orders_${serverid}`)
     console.log(`the order of guild ${serverid} has been deleted!`);
     message.channel.send(`the order of guild **${client.guilds.cache.get(serverid).name}** has been deleted!`);
-    let channelll = client.channels.cache.get("804964922764165160")
+    let channelll = client.channels.cache.get(config.logChannel)
     let embed = new Discord.MessageEmbed()
     .setTitle(`Server Order Deleted!`)
     .setDescription(`<@${message.author.id}> Deleted **${client.guilds.cache.get(serverid).name}** Orders!`)
