@@ -31,7 +31,7 @@ module.exports = {
     if (banned == false) return message.channel.send(`${user.tag} isn't banned. **BRUH** <:MonkaWae:741915455303843871>`)
     db.set(`banned_${user.id}`, false)
     
-    let unbannedchannel = client.channels.cache.get("807509885859266625")
+    let unbannedchannel = client.channels.cache.get(config.logChannel)
     let can = new Discord.MessageEmbed()
     .setTitle('User Unbanned!')
     .setDescription(`User Name: **${user.username}**\nUser ID: **${user.id}**\nUnbanned by: <@${message.author.id}>`)
