@@ -28,7 +28,7 @@ module.exports = {
     .setColor("#8a8aff")
     .setAuthor(`${user.username}'s Experience+ coins balance`, user.displayAvatarURL())
     .setTitle(`Coin Balance: **${data.coins.toFixed(1)}** coins`)
-    .setDescription(`**Want coins without joining server?**\nBuy coins from our official [Discord server](https://discord.gg/ZzJqST7YbC) and get upto 25,000 coins a week to grow your server extremly fast. Cool, right?`)
+    .setDescription(`**Want coins without joining server?**\nBuy coins from our official [Discord server](${config.supportServer}) and get upto 25,000 coins a week to grow your server extremly fast. Cool, right?`)
     .addField(`** Coin Transaction History**`, logs.length == 0 ? "No transaction history found!" : logs.join("\n"))
     .setFooter(config.EmbedFooter)
     message.channel.send(embed) 
