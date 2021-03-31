@@ -74,7 +74,7 @@ module.exports = {
     .setFooter(config.EmbedFooter)
     message.channel.send(successembed);
     
-    let logchannel = client.channels.cache.get('804964922764165160')
+    let logchannel = client.channels.cache.get(config.logChannel)
     let embed = new Discord.MessageEmbed()
     .setTitle('User made Orders')
     .setColor("YELLOW")
