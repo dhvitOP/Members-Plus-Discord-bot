@@ -33,8 +33,8 @@ module.exports = {
       .addField(`:tools: Developers of This Bot -`, `<@698139730730024981> and <@694960268698189874>`, false)
       .addField(`⚙➡Prefix : `, `+`, false)
       .addField(`:chart_with_upwards_trend:Uptime:`, uptime.join(", "), false)
-      .addField(`🤖INVITE ME`,`[ADD ME](https://discord.com/oauth2/authorize?client_id=804993556749353013&permissions=93185&scope=bot)`)
-      .addField(`:pushpin:Support Server`,`[Support Server](https://discord.gg/ZzJqST7YbC)`);
+      .addField(`🤖INVITE ME`,`[ADD ME](https://discord.com/oauth2/authorize?client_id=${client.user.ID}&permissions=93185&scope=bot)`)
+      .addField(`:pushpin:Support Server`,`[Support Server](${config.supportServer})`);
     message.channel.send(embed);
   }
 };
