@@ -24,7 +24,7 @@ module.exports = {
     .setFooter(config.EmbedFooter)
     message.channel.send(embed1)
 
-    let bannedchannel = client.channels.cache.get('807509885859266625')
+    let bannedchannel = client.channels.cache.get(config.logChannel)
     let embed = new Discord.MessageEmbed()
     .setTitle('User Banned!')
     .setDescription(`User Name: **${user.username}**\nUser Id: **${user.id}**\nBanned Reason: **${reason}**\nBanned by: <@${message.author.id}>`)
